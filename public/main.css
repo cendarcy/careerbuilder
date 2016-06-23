@@ -3,10 +3,10 @@ body {
 }
 
 #background{
-	margin-left: 100px;
+	margin-left: 140px;
 	background-image: url(/images/ladyjobs.jpg);
-	width: 1000px;
-	height: 500px;
+	width: 960px;
+	height: 180px;
 }	
 
 ul {
@@ -24,11 +24,28 @@ a {
 }
 
 a:hover {
-	color: blue;
+	color: #85e8df;
 }
 
 h1 {
 	font-family: 'Yellowtail', cursive;
 	font-size: 90px;
-	color: #85e8df
+	color: #85e8df;
+	margin-top: -95px;
+	margin-left: 150px;
 }
+
+h2 {
+	margin-left: 50px;
+}
+
+h3 {
+	margin-left: 50px;
+}
+
+p {
+	margin-left: 50px;
+}
+
+
+
