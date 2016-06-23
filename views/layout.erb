@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="main.css">
+		</head>
+		<body>
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/services">Services</a></li>
+					<li><a href="/contact">Contact Us</a></li>
+				</ul>
+			</nav>
+			<div>
+				<%= yield %>
+			</div>
+			<footer>
+				<nav>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/services">Services</a></li>
+							<ul>
+								<li>Workshops</li>
+								<li>Coaching</li>
+								<li>Resources</li>
+							</ul>
+						<li><a href="/contact">Contact Us</a></li>					
+					</ul>
+				</nav>
+			</footer>
+		</body>
+	</html>
