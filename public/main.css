@@ -3,10 +3,10 @@ body {
 }
 
 #background{
-	margin-left: 140px;
-	background-image: url(/images/ladyjobs.jpg);
-	width: 960px;
-	height: 180px;
+	margin-left: 25px;
+	background-image: url(/images/woman-sunset.jpg);
+	width: 1200px;
+	height: 500px;
 }	
 
 ul {
@@ -32,7 +32,7 @@ h1 {
 	font-size: 90px;
 	color: #85e8df;
 	margin-top: -95px;
-	margin-left: 150px;
+	margin-left: 35px;
 }
 
 h2 {
