@@ -47,5 +47,76 @@ p {
 	margin-left: 50px;
 }
 
+#aboutpageheader {
+	clear:both;
+	font-size: 40px;
+	padding-top: 200px;
+}
+
+.aboutP {
+	margin: 10px;
+}
+
+#blackwoman {
+	position: relative;
+	background-image: url(/images/black_woman_smiling.jpg);
+	margin-left: 50px;
+	margin-bottom: 200px;
+	width: 950px;
+	height: 475px;
+	z-index: -1;
+
+}
+
+#asianwoman {
+	position:relative;
+	background-image: url(/images/asian_woman_smiling.jpg);
+	margin-left: 250px;
+	margin-bottom: 200px;
+	width: 950px;
+	height: 475px;
+	z-index: -1;
+
+}
+
+#latinawoman {
+	position: relative;
+	background-image: url(/images/latina_woman_smiling.jpg);
+	margin-left: 50px;
+	width: 950px;
+	height: 475px;
+	z-index: -1;
+}
+
+#pageBG {
+	background-color: rgba(209, 209, 209, 0.4);
+	z-index: 1;
+}
 
 
+#bwFG {
+	background-color: rgba(133, 232, 223, 0.7);
+	width: 600px;
+	height: 150px;
+	padding: 25px;
+	float: left;
+	margin-top: 150px;
+	margin-left: 600px;
+	z-index: 2;
+}
+
+#awFG {
+	background-color: rgba(133, 232, 223, 0.7);
+	width: 600px;
+	height: 150px;
+	padding: 25px;
+	float: left;
+	margin-top: 150px;
+	margin-left: 50px;
+	z-index: 2;
+}
+
+footer {
+	clear: both;
+	background-color: rgba(209, 209, 209, 0.4);
+}
