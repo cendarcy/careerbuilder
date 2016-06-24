@@ -48,11 +48,13 @@ h1 {
 
 h2 {
 	margin-left: 50px;
+	padding: 20px 0px;
 }
 
 h3 {
 	margin-left: 50px;
-}
+	padding: 20px 0px;
+}	
 
 p {
 	margin-left: 50px;
