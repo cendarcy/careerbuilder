@@ -17,8 +17,18 @@ body {
 	height: 500px;
 }	
 
+<<<<<<< HEAD
+#logo {
+/*	position: absolute;*/
+	float: right;	
+	padding-right: 200px;
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+	/*z-index: 1;*/
+=======
 nav {
 	background-color: rgba(133, 232, 223, 0.2);
+>>>>>>> a79e9887030c1a3189f71a427c0d6df11d66739b
 }
 
 li {
