@@ -9,6 +9,15 @@ body {
 	height: 180px;
 }	
 
+#logo {
+/*	position: absolute;*/
+	float: right;	
+	padding-right: 200px;
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+	/*z-index: 1;*/
+}
+
 ul {
 
 }
