@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			
+			<meta charset="UTF-8">
 			<link rel="stylesheet" type="text/css" href="main.css">
-			
 			<link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
-
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
-
 		</head>
 		<body>
 			<nav>
@@ -18,6 +15,13 @@
 					<li><a href="/contact">Contact Us</a></li>
 				</ul>
 			</nav>
+			<div>
+				<form action="/email_response" method="post">
+					<input type="text" name="username" placeholder="username">
+					<input type="text" name="password" placeholder="password">
+					<input type="submit">
+				</form>
+			</div>	
 			<hr class="underline">
 				<%= yield %>
 			
