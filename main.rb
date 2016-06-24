@@ -17,6 +17,6 @@ get '/services' do
   erb :services
 end
 
-get '/' do
+get '/contact' do
   erb :contact
 end

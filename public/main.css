@@ -17,7 +17,6 @@ body {
 	height: 500px;
 }	
 
-<<<<<<< HEAD
 #logo {
 /*	position: absolute;*/
 	float: right;	
@@ -25,10 +24,10 @@ body {
 	-webkit-transform: rotate(10deg);
 	transform: rotate(10deg);
 	/*z-index: 1;*/
-=======
+}
+
 nav {
 	background-color: rgba(133, 232, 223, 0.2);
->>>>>>> a79e9887030c1a3189f71a427c0d6df11d66739b
 }
 
 li {
@@ -49,6 +48,11 @@ a:hover {
 form {
 	float: right;
 	margin-top: -20px;
+	margin-right: 50px;
+}
+
+#button {
+	color: #fe7d23;
 }
 
 h1 {
@@ -75,6 +79,19 @@ p {
 	padding: 10px;
 }
 
+#clear {
+	clear: both;
+}
+
+.classy {
+	display: block;
+	width: 200px;
+	margin-left: 30px;
+	padding: 5px;
+	font-size: 14px;
+	
+}
+
 hr.underline {
 	border-color: rgb(133, 232, 223);
     height: 30px;
@@ -94,6 +111,8 @@ hr.underline:before { /* Not really supposed to work, but does */
     border-radius: 20px;
     padding-left: 0px;
 }
+
+
 
 /*about page*/
 
@@ -173,17 +192,56 @@ hr.underline:before { /* Not really supposed to work, but does */
 	padding-left: 250px;
 }
 
-p.left {
-	float:left;
-	width: 800px;
+#workshop {
+	position: relative;
+	background-image: url(/images/workshop_women.png);
+	margin-left: 50px;
+	margin-bottom: 200px;
+	width: 630px;
+	height: 350px;
+	z-index: -1;
+}
+
+#wwFG {
+	background-color: rgba(133, 232, 223, 0.7);
+	width: 600px;
+	height: 150px;
+	padding: 25px;
+	float: left;
+	margin-top: -480px;
+	margin-left: 480px;
+	z-index: 2;
+}
+
+#clear {
+	padding: 0px 0px;
 }
 
 iframe {
 	float: right;
 	width: 350px;
 	height: 350px;
-	margin-top: -100px;
+	margin-top: -200px;
+	margin-right: 150px;
 }
+
+#laughing {
+	position: relative;
+	float: right;
+	background-image: url(/images/laughing-women.png);
+	margin-left: 250px;
+	margin-bottom: 200px;
+	width: 500px;
+	height: 373px;
+	z-index: -1;
+}
+
+#lwFG {
+
+}
+
+
+
 
 footer {
 	clear: both;
