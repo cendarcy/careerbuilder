@@ -16,7 +16,7 @@ body {
 }	
 
 nav {
-	background-color: white;
+	background-color: rgba(133, 232, 223, 0.2);
 }
 
 ul {
@@ -66,6 +66,7 @@ hr.underline {
     border-style: solid;
     border-width: 1px 0 0 0;
     border-radius: 20px;
+    padding-left: 0px;
 }
 hr.underline:before { /* Not really supposed to work, but does */
     display: block;
@@ -76,6 +77,7 @@ hr.underline:before { /* Not really supposed to work, but does */
     border-style: solid;
     border-width: 0 0 1px 0;
     border-radius: 20px;
+    padding-left: 0px;
 }
 
 
@@ -151,6 +153,5 @@ hr.underline:before { /* Not really supposed to work, but does */
 
 footer {
 	clear: both;
-	background-color: rgba(209, 209, 209, 0.4);
 	padding-top: 20px;
 }
