@@ -1,3 +1,5 @@
+/*general*/
+
 * {
 	margin: 0px;
 	top: 0px;
@@ -22,6 +24,7 @@ body {
 	padding-left: 340px;
 	-webkit-transform: rotate(10deg);
 	transform: rotate(10deg);
+<<<<<<< HEAD
 	z-index: 1;
 }
 
@@ -32,6 +35,14 @@ nav {
 /*ul {
 
 }*/
+=======
+	/*z-index: 1;*/
+}
+
+nav {
+	background-color: rgba(133, 232, 223, 0.2);
+}
+>>>>>>> 16266525fa935b5ad46ab086da648ac1ba41181b
 
 li {
 	display: inline;
@@ -45,7 +56,17 @@ a {
 }
 
 a:hover {
-	color: #85e8df;
+	color: #fe7d23;
+}
+
+form {
+	float: right;
+	margin-top: -20px;
+	margin-right: 50px;
+}
+
+#button {
+	color: #fe7d23;
 }
 
 h1 {
@@ -72,6 +93,19 @@ p {
 	padding: 10px;
 }
 
+#clear {
+	clear: both;
+}
+
+.classy {
+	display: block;
+	width: 200px;
+	margin-left: 30px;
+	padding: 5px;
+	font-size: 16px;
+	
+}
+
 hr.underline {
 	border-color: rgb(133, 232, 223);
     height: 30px;
@@ -92,6 +126,9 @@ hr.underline:before { /* Not really supposed to work, but does */
     padding-left: 0px;
 }
 
+
+
+/*about page*/
 
 #aboutpageheader {
 	clear:both;
@@ -163,6 +200,7 @@ hr.underline:before { /* Not really supposed to work, but does */
 	z-index: 2;
 }
 
+<<<<<<< HEAD
 input {
 	display: block;
 	border-color: rgb(133, 232, 223);
@@ -176,6 +214,72 @@ input {
 	width: 1000px;
 }
 
+=======
+/*services*/
+
+.smiling {
+	padding-left: 250px;
+}
+
+#workshop {
+	position: relative;
+	background-image: url(/images/workshop_women.png);
+	margin-left: 50px;
+	margin-bottom: 200px;
+	width: 630px;
+	height: 350px;
+	z-index: -1;
+}
+
+#wwFG {
+	background-color: rgba(133, 232, 223, 0.7);
+	width: 600px;
+	height: 200px;
+	padding: 25px;
+	float: left;
+	margin-top: -480px;
+	margin-left: 480px;
+	z-index: 2;
+}
+
+#clear {
+	padding: 0px 0px;
+	margin-top: -200px;
+	margin-left: 50px;
+}
+
+#line {
+	border-bottom: 1px solid #a3e9e2;
+	margin-top: 0px;
+	width: 200px;
+}
+
+iframe {
+	float: right;
+	width: 350px;
+	height: 350px;
+	margin-top: -50px;
+	margin-right: 150px;
+}
+
+#laughing {
+	position: relative;
+	float: left;
+	background-image: url(/images/laughing-women.png);
+	margin-top: 50px;
+	margin-bottom: 200px;
+	width: 500px;
+	height: 373px;
+	z-index: -1;
+}
+
+#lwFG {
+
+}
+
+
+
+>>>>>>> 16266525fa935b5ad46ab086da648ac1ba41181b
 
 footer {
 	clear: both;
