@@ -15,23 +15,23 @@ body {
 	height: 500px;
 }	
 
-<<<<<<< HEAD
 #logo {
-/*	position: absolute;*/
-	float: right;	
-	padding-right: 200px;
+	position: absolute;
+	float: left;	
+	padding-top: 428px;
+	padding-left: 340px;
 	-webkit-transform: rotate(10deg);
 	transform: rotate(10deg);
-	/*z-index: 1;*/
-=======
+	z-index: 1;
+}
+
 nav {
 	background-color: rgba(133, 232, 223, 0.2);
->>>>>>> a79e9887030c1a3189f71a427c0d6df11d66739b
 }
 
-ul {
+/*ul {
 
-}
+}*/
 
 li {
 	display: inline;
@@ -162,6 +162,20 @@ hr.underline:before { /* Not really supposed to work, but does */
 	margin-left: 50px;
 	z-index: 2;
 }
+
+input {
+	display: block;
+	border-color: rgb(133, 232, 223);
+	font-color: #85e8df;
+
+}
+
+
+#emailbody {
+	height: 200px
+	width: 1000px;
+}
+
 
 footer {
 	clear: both;
