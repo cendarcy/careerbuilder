@@ -88,7 +88,7 @@ p {
 	width: 200px;
 	margin-left: 30px;
 	padding: 5px;
-	font-size: 14px;
+	font-size: 16px;
 	
 }
 
@@ -205,7 +205,7 @@ hr.underline:before { /* Not really supposed to work, but does */
 #wwFG {
 	background-color: rgba(133, 232, 223, 0.7);
 	width: 600px;
-	height: 150px;
+	height: 200px;
 	padding: 25px;
 	float: left;
 	margin-top: -480px;
@@ -215,21 +215,29 @@ hr.underline:before { /* Not really supposed to work, but does */
 
 #clear {
 	padding: 0px 0px;
+	margin-top: -200px;
+	margin-left: 50px;
+}
+
+#line {
+	border-bottom: 1px solid #a3e9e2;
+	margin-top: 0px;
+	width: 200px;
 }
 
 iframe {
 	float: right;
 	width: 350px;
 	height: 350px;
-	margin-top: -200px;
+	margin-top: -50px;
 	margin-right: 150px;
 }
 
 #laughing {
 	position: relative;
-	float: right;
+	float: left;
 	background-image: url(/images/laughing-women.png);
-	margin-left: 250px;
+	margin-top: 50px;
 	margin-bottom: 200px;
 	width: 500px;
 	height: 373px;
