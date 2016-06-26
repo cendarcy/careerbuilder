@@ -48,7 +48,7 @@ a:hover {
 	color: #fe7d23;
 }
 
-form {
+.join {
 	float: right;
 	margin-top: -20px;
 	margin-right: 50px;
@@ -126,20 +126,80 @@ hr.underline:before { /* Not really supposed to work, but does */
 }
 
 .bubble {
-	background-color: rgba(234, 121, 41, 0.34);
+	background-color: #FFC092;
 	display: block;
 	border-radius: 50%;
 	width: 200px;
-	height: 300px;
+	height: 250px;
 	float: left;
-	margin-left: 150px;
+	margin-left: 170px;
 	padding-top: 10px;
 }
 
 .floating-head {
-	margin-left: 17px;
-	margin-top: 35px;
+	margin-left: 33px;
+	margin-top: 17px;
 }
+
+#floating-head {
+	margin-left: 40px;
+	margin-top: 17px;
+}
+
+h4 {
+	float: left;
+	width: 130px;
+	margin-left: 240px;
+	margin-top: 20px;
+	font-family:'Yellowtail', cursive;
+	font-size: 30px;
+
+}
+
+.under-bubble{
+	width: 150px;
+	float: left;
+	margin-left: 205px;
+	margin-right: 0px;
+}
+
+.clear {
+	clear: both;
+	background-color: rgba(133, 232, 223, 0.2)
+}
+
+.newsletter {
+	float: left;
+	padding-left: 60px;
+	width: 50%;
+	height: 250px;
+	border: 10px solid #FFC092;
+}
+
+.sign-up {
+	font-family:'Yellowtail', cursive;
+	font-size: 30px;
+	float: none;
+	display: inline;
+	margin-left: 50px;
+	
+}
+
+#newsletter-1{
+	float: none;
+	padding-left: 160px;
+	margin-top: 0px;
+}
+
+.newsletter-input {
+	float: none;
+	padding-top: 10px;
+	display: inline;
+	margin-top: 0px;
+
+}
+
+
 /*about page*/
 
 #aboutpageheader {
@@ -151,6 +211,13 @@ hr.underline:before { /* Not really supposed to work, but does */
 
 .aboutP {
 	margin: 10px;
+}
+
+.her {
+	font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+	color: #FFC092;
+	padding: 2px;
 }
 
 #blackwoman {
@@ -317,9 +384,15 @@ iframe {
 }
 
 
-
+/*footer*/
 
 footer {
 	clear: both;
 	padding-top: 20px;
 }
+
+.footer-inline {
+	display: inline;
+}
+
+

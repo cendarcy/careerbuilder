@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 632e5a976e6b638fc368eb4fb680bb77f8d35938
 $(window).scroll(function(){
   var windowWidth = $(this).width();
   var windowHeight = $(this).height();
