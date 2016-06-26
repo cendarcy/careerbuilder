@@ -10,6 +10,8 @@ body {
 	background-color: rgba(209, 209, 209, 0.4);
 }
 
+/* Index page */
+
 #background{
 	margin-left: 25px;
 	background-image: url(/images/woman-sunset.jpg);
@@ -24,25 +26,12 @@ body {
 	padding-left: 340px;
 	-webkit-transform: rotate(10deg);
 	transform: rotate(10deg);
-<<<<<<< HEAD
 	z-index: 1;
 }
 
 nav {
 	background-color: rgba(133, 232, 223, 0.2);
 }
-
-/*ul {
-
-}*/
-=======
-	/*z-index: 1;*/
-}
-
-nav {
-	background-color: rgba(133, 232, 223, 0.2);
-}
->>>>>>> 16266525fa935b5ad46ab086da648ac1ba41181b
 
 li {
 	display: inline;
@@ -131,10 +120,10 @@ hr.underline:before { /* Not really supposed to work, but does */
 /*about page*/
 
 #aboutpageheader {
-	clear:both;
-	font-size: 40px;
-	padding-top: 200px;
-
+	margin-left: 25px;
+	background-image: url(/images/aboutheader.jpg);
+	width: 1200px;
+	height: 500px;
 }
 
 .aboutP {
@@ -184,9 +173,15 @@ hr.underline:before { /* Not really supposed to work, but does */
 	height: 150px;
 	padding: 25px;
 	float: left;
-	margin-top: 150px;
-	margin-left: 600px;
+	margin-top: 130px;
+	margin-left: 580px;
 	z-index: 2;
+}
+
+.asianW {
+	position: relative;
+	opacity: 0;
+	left: 300px;
 }
 
 #awFG {
@@ -200,7 +195,17 @@ hr.underline:before { /* Not really supposed to work, but does */
 	z-index: 2;
 }
 
-<<<<<<< HEAD
+#lwFG {
+	background-color: rgba(133, 232, 223, 0.7);
+	width: 600px;
+	height: 150px;
+	padding: 25px;
+	float: left;
+	margin-top: 150px;
+	margin-left: 580px;
+	z-index: 2;
+}
+
 input {
 	display: block;
 	border-color: rgb(133, 232, 223);
@@ -208,13 +213,37 @@ input {
 
 }
 
-
-#emailbody {
-	height: 200px
-	width: 1000px;
+#space {
+	width: 950px;
+	height: 150px;
+	z-index: -1;
 }
 
-=======
+/*Animations*/
+/*.animation-elements1 {
+	opacity: 0;
+	position: relative;
+}
+
+.animation-elements1.slide-left {
+	opacity: 0;
+	-webkit-transition: all 3000 linear;
+	transition: all 3000 linear;
+	-webkit-transform: translate3d (-100px, 0px, 0px);
+	transform: translate3d(-100px, 0px, 0px);
+}
+
+.animation-elements1.slide-left.in_view {
+	opacity: 1;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	transform: translate3d(0px,0px, 0px);
+}*
+
+
+
+
+
+
 /*services*/
 
 .smiling {
@@ -273,9 +302,7 @@ iframe {
 	z-index: -1;
 }
 
-#lwFG {
 
-}
 
 
 

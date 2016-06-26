@@ -25,6 +25,6 @@ mail_person = SendGrid::Client.new do |mp|
 	mp.api_key = ENV["SENDGRID_APIKEY"] #input the API key from SendGrid
 end
 
-res = client.send(mail)
-puts res.code
-puts res.body
+# res = client.send(mail)
+# puts res.code
+# puts res.body
