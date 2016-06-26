@@ -170,9 +170,11 @@ h4 {
 
 .newsletter {
 	float: left;
+	margin-left: 50px;
 	padding-left: 60px;
+	padding-top: 20px;
 	width: 50%;
-	height: 250px;
+	height: 150px;
 	border: 10px solid #FFC092;
 }
 
@@ -181,13 +183,15 @@ h4 {
 	font-size: 30px;
 	float: none;
 	display: inline;
-	margin-left: 50px;
+	margin-left: 130px;
+	padding-top: 50px;
 	
 }
 
 #newsletter-1{
 	float: none;
-	padding-left: 160px;
+	padding-left: 130px;
+	padding-top: 20px;
 	margin-top: 0px;
 }
 
