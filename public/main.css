@@ -322,20 +322,13 @@ input {
 	z-index: -1;
 }
 
-/*Animations*/
-
-
-
-
-
-
 /*services*/
 
 .smiling {
 	padding-left: 250px;
 }
 
-#workshop {
+.workshop {
 	position: relative;
 	background-image: url(/images/workshop_women.png);
 	margin-left: 50px;
@@ -343,9 +336,10 @@ input {
 	width: 630px;
 	height: 350px;
 	z-index: -1;
+	opacity: 0;
 }
 
-#wwFG {
+.wwFG {
 	background-color: rgba(133, 232, 223, 0.7);
 	width: 600px;
 	height: 200px;
@@ -354,6 +348,8 @@ input {
 	margin-top: -480px;
 	margin-left: 480px;
 	z-index: 2;
+	opacity: 0;
+
 }
 
 #clear {
@@ -374,9 +370,10 @@ iframe {
 	height: 350px;
 	margin-top: -50px;
 	margin-right: 150px;
+	z-index: 2;
 }
 
-#laughing {
+.laughing {
 	position: relative;
 	float: left;
 	background-image: url(/images/laughing-women.png);
@@ -385,6 +382,19 @@ iframe {
 	width: 500px;
 	height: 373px;
 	z-index: -1;
+	opacity: 0;
+}
+
+.lwFG {
+	background-color: rgba(133, 232, 223, 0.7);
+	width: 600px;
+	height: 200px;
+	padding: 25px;
+	float: left;
+	margin-top: -480px;
+	margin-left: 480px;
+	z-index: 2;
+	opacity: 0;
 }
 
 

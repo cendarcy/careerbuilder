@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 632e5a976e6b638fc368eb4fb680bb77f8d35938
 $(window).scroll(function(){
   var windowWidth = $(this).width();
   var windowHeight = $(this).height();
@@ -28,6 +24,26 @@ var pictureSlide = function() {
 		opacity: 1,
 		left: 20},
 		'slow');
+
+	$('.workshop').animate({
+		opacity: 1,
+		left: 20}, 
+		'slow');
+
+	$('.wwFG').animate({
+		opacity: 1,
+		left: 20}, 
+		'slow');
+
+	$('.laughing').animate({
+		opacity: 1,
+		left: 20}, 
+		'slow');
+
+	$('.lwFG').animate({
+		opacity: 1,
+		left: 20}, 
+		'slow');
 };
 
 if(windowScrollTop >= 200) {
@@ -37,6 +53,22 @@ if(windowScrollTop >= 900) {
 	$('.latinaW', '.latinawoman');
 	pictureSlide();
 	};
+if(windowScrollTop >= 900) {
+	$('.latinaW', '.latinawoman');
+	pictureSlide();
+	};
+if(windowScrollTop >= 300) {
+	$('.workshop', '.wwFG');
+	pictureSlide();
+	};
+if(windowScrollTop >= 900) {
+	$('.laughing', '.lwFG');
+	pictureSlide();
+	};	
+
+
+
+
 });
 
 
