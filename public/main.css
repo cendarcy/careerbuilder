@@ -164,7 +164,7 @@ hr.underline:before { /* Not really supposed to work, but does */
 
 }
 
-#asianwoman {
+.asianwoman {
 	position:relative;
 	background-image: url(/images/asian_woman_smiling.jpg);
 	margin-left: 250px;
@@ -172,16 +172,18 @@ hr.underline:before { /* Not really supposed to work, but does */
 	width: 950px;
 	height: 475px;
 	z-index: -1;
+	opacity: 0;
 
 }
 
-#latinawoman {
+.latinawoman {
 	position: relative;
 	background-image: url(/images/latina_woman_smiling.jpg);
 	margin-left: 50px;
 	width: 950px;
 	height: 475px;
 	z-index: -1;
+	opacity: 0;
 }
 
 #pageBG {
@@ -204,10 +206,10 @@ hr.underline:before { /* Not really supposed to work, but does */
 .asianW {
 	position: relative;
 	opacity: 0;
-	left: 300px;
 }
 
 #awFG {
+	position: relative;
 	background-color: rgba(133, 232, 223, 0.7);
 	width: 600px;
 	height: 150px;
@@ -216,6 +218,12 @@ hr.underline:before { /* Not really supposed to work, but does */
 	margin-top: 150px;
 	margin-left: 50px;
 	z-index: 2;
+	opacity: 0;
+}
+
+.latinaW {
+	position: relative;
+	opacity: 0;
 }
 
 #lwFG {
@@ -227,6 +235,7 @@ hr.underline:before { /* Not really supposed to work, but does */
 	margin-top: 150px;
 	margin-left: 580px;
 	z-index: 2;
+	opacity: 0;
 }
 
 input {
@@ -243,24 +252,6 @@ input {
 }
 
 /*Animations*/
-/*.animation-elements1 {
-	opacity: 0;
-	position: relative;
-}
-
-.animation-elements1.slide-left {
-	opacity: 0;
-	-webkit-transition: all 3000 linear;
-	transition: all 3000 linear;
-	-webkit-transform: translate3d (-100px, 0px, 0px);
-	transform: translate3d(-100px, 0px, 0px);
-}
-
-.animation-elements1.slide-left.in_view {
-	opacity: 1;
-	-webkit-transform: translate3d(0px, 0px, 0px);
-	transform: translate3d(0px,0px, 0px);
-}*
 
 
 
