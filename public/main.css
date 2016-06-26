@@ -48,7 +48,7 @@ a:hover {
 	color: #fe7d23;
 }
 
-form {
+.join {
 	float: right;
 	margin-top: -20px;
 	margin-right: 50px;
@@ -162,6 +162,44 @@ h4 {
 	margin-left: 205px;
 	margin-right: 0px;
 }
+
+.clear {
+	clear: both;
+	background-color: rgba(133, 232, 223, 0.2)
+}
+
+.newsletter {
+	float: left;
+	padding-left: 60px;
+	width: 50%;
+	height: 250px;
+	border: 10px solid #FFC092;
+}
+
+.sign-up {
+	font-family:'Yellowtail', cursive;
+	font-size: 30px;
+	float: none;
+	display: inline;
+	margin-left: 50px;
+	
+}
+
+#newsletter-1{
+	float: none;
+	padding-left: 160px;
+	margin-top: 0px;
+}
+
+.newsletter-input {
+	float: none;
+	padding-top: 10px;
+	display: inline;
+	margin-top: 0px;
+
+}
+
+
 /*about page*/
 
 #aboutpageheader {
@@ -173,6 +211,13 @@ h4 {
 
 .aboutP {
 	margin: 10px;
+}
+
+.her {
+	font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+	color: #FFC092;
+	padding: 2px;
 }
 
 #blackwoman {
@@ -348,9 +393,15 @@ iframe {
 }
 
 
-
+/*footer*/
 
 footer {
 	clear: both;
 	padding-top: 20px;
 }
+
+.footer-inline {
+	display: inline;
+}
+
+
