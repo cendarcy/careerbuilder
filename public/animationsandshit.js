@@ -44,6 +44,16 @@ var pictureSlide = function() {
 		opacity: 1,
 		left: 20}, 
 		'slow');
+
+	$('.group').animate({
+		opacity: 1,
+		right: 20}, 
+		'slow');
+
+	$('.groupFG').animate({
+		opacity: 1,
+		left: 20}, 
+		'slow');
 };
 
 if(windowScrollTop >= 200) {
@@ -65,9 +75,10 @@ if(windowScrollTop >= 900) {
 	$('.laughing', '.lwFG');
 	pictureSlide();
 	};	
-
-
-
+if(windowScrollTop >= 900) {
+	$('.group', '.lwFG');
+	pictureSlide();
+	};	
 
 });
 

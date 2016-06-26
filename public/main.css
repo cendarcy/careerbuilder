@@ -125,6 +125,10 @@ hr.underline:before { /* Not really supposed to work, but does */
     padding-left: 0px;
 }
 
+.blue-background { 
+	background-color: rgba(133, 232, 223, 0.2);
+}
+
 .bubble {
 	background-color: #FFC092;
 	display: block;
@@ -165,7 +169,7 @@ h4 {
 
 .clear {
 	clear: both;
-	background-color: rgba(133, 232, 223, 0.2)
+	background-color: rgba(133, 232, 223, 0.2);
 }
 
 .newsletter {
@@ -378,6 +382,7 @@ iframe {
 	float: left;
 	background-image: url(/images/laughing-women.png);
 	margin-top: 50px;
+	margin-left: 20px;
 	margin-bottom: 200px;
 	width: 500px;
 	height: 373px;
@@ -397,6 +402,31 @@ iframe {
 	opacity: 0;
 }
 
+.group{
+	position: relative;
+	float: right;
+	background-image: url(/images/group-workshop.png);
+	margin-top: -120px;
+	margin-right: 20px;
+	margin-bottom: 200px;
+	width: 500px;
+	height: 260px;
+	z-index: -1;
+	opacity: 0;
+}
+
+.groupFG {
+	background-color: rgba(133, 232, 223, 0.7);
+	width: 600px;
+	height: 160px;
+	padding: 25px;
+	float: right;
+	z-index: 2;
+	opacity: 0;
+	margin-top: 200px;
+	margin-top: -80px;
+}
+
 
 /*footer*/
 
@@ -405,8 +435,9 @@ footer {
 	padding-top: 20px;
 }
 
-.footer-inline {
-	display: inline;
+.footer-block {
+	display: block;
+	margin-left: 105px;
 }
 
 
