@@ -52,10 +52,20 @@ form {
 	float: right;
 	margin-top: -20px;
 	margin-right: 50px;
+	display: inline;
+}
+
+.behave {
+	display: inline;
 }
 
 #button {
 	color: #fe7d23;
+
+}
+
+.underline {
+	width: 100%;
 }
 
 h1 {
@@ -115,8 +125,21 @@ hr.underline:before { /* Not really supposed to work, but does */
     padding-left: 0px;
 }
 
+.bubble {
+	background-color: rgba(234, 121, 41, 0.34);
+	display: block;
+	border-radius: 50%;
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin-left: 150px;
+	padding-top: 10px;
+}
 
-
+.floating-head {
+	margin-left: 17px;
+	margin-top: 35px;
+}
 /*about page*/
 
 #aboutpageheader {
@@ -304,9 +327,6 @@ iframe {
 
 
 
-
-
->>>>>>> 16266525fa935b5ad46ab086da648ac1ba41181b
 
 footer {
 	clear: both;
