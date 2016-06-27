@@ -174,7 +174,7 @@ h4 {
 
 .newsletter {
 	float: left;
-	margin-left: 50px;
+	margin-left: 280px;
 	padding-left: 60px;
 	padding-top: 20px;
 	width: 50%;
@@ -427,6 +427,79 @@ iframe {
 	margin-top: -80px;
 }
 
+/*contact*/
+
+
+.charmel {
+	float: left;
+	padding-top: 20px;
+	height: 500px;
+	width: 1280px;
+	/*background-color: rgba(133, 232, 223, 0.2);*/
+}
+
+#info1 {
+	position: relative;
+	background-color: rgba(133, 232, 223, 0.7);
+	width: 600px;
+	height: 150px;
+	padding: 25px;
+	float: left;
+	margin-top: -350px;
+	margin-left: 300px;
+	z-index: 2;
+}
+
+.camille {
+	float: right;
+	padding-top: 20px;
+}
+
+#info {
+	position: relative;
+	background-color: rgba(133, 232, 223, 0.7);
+	width: 600px;
+	height: 150px;
+	padding: 25px;
+	float: right;
+	margin-top: 150px;
+	margin-right: -100px;
+	z-index: 2;
+}
+
+.contactBG {
+	clear: both;
+	background-color: rgba(133, 232, 223, 0.2);
+	height: 500px;
+	width: 1280px;
+}
+
+.contactBG1 {
+	clear: both;
+	background-color: rgba(133, 232, 223, 0.2);
+	height: 510px;
+	width: 1280px;
+}
+
+h4.names {
+	float: left;
+	width: 130px;
+	margin-left: 15px;
+	margin-top: -25px;
+	font-family:'Yellowtail', cursive;
+	font-size: 30px;
+}
+
+#contact_form {
+	clear: both;
+	float: left;
+	margin-left: 280px;
+	padding-left: 60px;
+	padding-top: 20px;
+	width: 50%;
+	height: 180px;
+	border: 10px solid #FFC092;
+}
 
 /*footer*/
 
@@ -438,6 +511,16 @@ footer {
 .footer-block {
 	display: block;
 	margin-left: 105px;
+	font-size: 14px;
 }
+
+.social {
+	display: inline;
+	width: 50px;
+	height: 50px;
+	padding-left: 1080px;
+	margin-top: -300px;
+}
+
 
 
