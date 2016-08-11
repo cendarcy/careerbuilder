@@ -29,8 +29,10 @@ body {
 	z-index: 1;
 }
 
-nav {
+nav.header {
 	background-color: rgba(133, 232, 223, 0.2);
+	height: 10vh;
+  padding-top: 20px;
 }
 
 li {
@@ -50,18 +52,21 @@ a:hover {
 
 .join {
 	float: right;
-	margin-top: -20px;
+	margin-top: -70px;
 	margin-right: 50px;
 	display: inline;
 }
 
 .behave {
 	display: inline;
+	border-width: 0px;
+  border-bottom: 1px solid #fe7d23;
 }
 
-#button {
+.button {
 	color: #fe7d23;
-
+	background-color: white;
+	display: inline;
 }
 
 .underline {
@@ -165,6 +170,8 @@ h4 {
 	float: left;
 	margin-left: 205px;
 	margin-right: 0px;
+	margin-bottom: 40px;
+
 }
 
 .clear {
@@ -197,6 +204,7 @@ h4 {
 	padding-left: 130px;
 	padding-top: 20px;
 	margin-top: 0px;
+
 }
 
 .newsletter-input {
@@ -204,6 +212,8 @@ h4 {
 	padding-top: 10px;
 	display: inline;
 	margin-top: 0px;
+	border-width: 0px;
+  border-bottom: 1px solid #fe7d23;
 
 }
 
@@ -226,6 +236,7 @@ h4 {
 	font-size: 30px;
 	color: #FFC092;
 	padding: 2px;
+	text-shadow: 2px 2px #878888;
 }
 
 #blackwoman {
@@ -314,6 +325,7 @@ h4 {
 }
 
 input {
+	/*width: 400px;*/
 	display: block;
 	border-color: rgb(133, 232, 223);
 	font-color: #85e8df;
@@ -497,8 +509,27 @@ h4.names {
 	padding-left: 60px;
 	padding-top: 20px;
 	width: 50%;
-	height: 180px;
+	height: 35vh;
 	border: 10px solid #FFC092;
+}  
+
+.contact {
+	margin-top: 20px;
+}
+
+.emailform {
+	width: 200px;
+	margin-left: 15vw;
+	margin-bottom: 10px;
+	border-width: 0px;
+  border-bottom: 1px solid #fe7d23;
+}
+
+.contact-button{
+	color: #fe7d23;
+	background-color: white;
+	margin-left: 265px;
+  margin-top: 6px;
 }
 
 /*footer*/
@@ -506,6 +537,11 @@ h4.names {
 footer {
 	clear: both;
 	padding-top: 20px;
+}
+
+nav.footer {
+	background-color: rgba(133, 232, 223, 0.2);
+	height: 25vh;
 }
 
 .footer-block {
